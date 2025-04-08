@@ -1,6 +1,6 @@
 # 👋 Hi, I’m Raul Iglesias Julios
 
-🎯 **3D Artist | Programmer | Immersive App Developer**
+🎯 **3D Artist/Hard Surface | Programmer | Fast prototyping**
 
 🚀 I create immersive, interactive applications and 3D content for games, VR/AR/MR, and cinematic experiences. I specialize in weapons, robots, vehicles, and hard-surface assets with a sci-fi focus.
 
@@ -8,7 +8,7 @@
 
 ## 🔍 Interests
 - Real-time 3D (Unity, Unreal Engine, Godot)
-- Immersive applications (VR/MR/AR)
+- Immersive applications (VR/AR)
 - Procedural modeling (Blender Geometry Nodes, Fusion 360, SolidWorks)
 - Game-ready asset creation
 - Generative design & compliant mechanisms
