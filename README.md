@@ -1,34 +1,37 @@
 # 👋 Hi, I’m Raul Iglesias Julios
 
-🎯 **3D Artist | Art Director | Sci-Fi Specialist**
+🎯 **3D Artist | Programmer | Immersive App Developer**
 
-🚀 I design and develop high-quality 3D models for games, VR/AR experiences, and cinematic productions. My focus is on weapons, robots, vehicles, and hard-surface assets with a strong sci-fi aesthetic.
+🚀 I create immersive, interactive applications and 3D content for games, VR/AR/MR, and cinematic experiences. I specialize in weapons, robots, vehicles, and hard-surface assets with a sci-fi focus.
 
 ---
 
 ## 🔍 Interests
-- Real-time 3D (Unity, Unreal Engine)
-- Procedural modeling (Blender Geometry Nodes, Fusion 360)
-- VR/MR immersive experiences
+- Real-time 3D (Unity, Unreal Engine, Godot)
+- Immersive applications (VR/MR/AR)
+- Procedural modeling (Blender Geometry Nodes, Fusion 360, SolidWorks)
 - Game-ready asset creation
-- Generative design and compliant mechanisms
+- Generative design & compliant mechanisms
+- 2D/3D games
+- Creative tools & rapid prototyping
 
 ## 📚 Currently Learning
-- Real-time rendering optimization (LOD, baking, shader workflows)
-- AI-driven tools for 3D production pipelines
-- Custom tooling and automation for Blender and Fusion 360
+- Real-time rendering optimization (LODs, baking, shaders)
+- AI-assisted 3D workflows
+- Advanced automation and scripting (Blender, Fusion 360)
 
 ## 🤝 Open to Collaborations
 - Indie game studios
+- Public and private institutions
 - Tech/VR startups
-- 3D asset libraries or tool/plugin developers
+- Experimental and innovative projects
 
 ## 📫 Contact
 🌐 [Linktree](https://linktr.ee/rauliglesiasjulios) – Portfolio, socials, and contact info  
-📩 Available for remote projects (EU timezone)
+📍 Based in Spain – Available for remote collaborations (EU timezone)
 
 ## ⚡ Fun Fact
-I run an art studio and lead a team of 3D artists working on cutting-edge sci-fi projects across multiple platforms.
+I lead a multidisciplinary team and work on a wide range of projects—from institucional projects to experimental game prototypes—always seeking innovation and challenge.
 
 ---
 
