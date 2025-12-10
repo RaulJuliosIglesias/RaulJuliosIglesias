@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- HEADER WAVE ANIMATION -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=Raul%20Iglesias%20Julios&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Product%20Developer%20%7C%203D/VR%20Artist%20%7C%20Fast%20Prototyper&descSize=18&descAlignY=55" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=Raul%20Iglesias&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Human-Centric%20AI%20Systems%20Architect&descSize=20&descAlignY=55" width="100%"/>
 
-<!-- ANIMATED TYPING -->
+<!-- ANIMATED TYPING - SHORTER LINES -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=100&lines=%F0%9F%9A%80+Shipping+MVPs+that+actually+work;%F0%9F%8E%AE+Building+immersive+3D+experiences;%F0%9F%A4%96+AI-powered+workflows+%26+automation" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=45&lines=AI+that+amplifies+humans,+not+replaces+them;Full-Stack+Dev+%7C+AI+Engineer+%7C+3D+Web;Building+MVPs+that+ship+fast+%26+work" alt="Typing SVG" />
 </a>
 
 <!-- PROFILE VIEWS & SOCIAL BADGES -->
@@ -17,6 +17,19 @@
   <a href="https://www.linkedin.com/in/rauliglesiasjulios">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
+  <a href="https://github.com/RaulJuliosIglesias">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/FULL_STACK-667EEA?style=flat-square"/>
+  <img src="https://img.shields.io/badge/AI_ENGINEER-764BA2?style=flat-square"/>
+  <img src="https://img.shields.io/badge/THREE.JS-000000?style=flat-square&logo=threedotjs"/>
+  <img src="https://img.shields.io/badge/REACT-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/RAG_SYSTEMS-FF6F00?style=flat-square"/>
+  <img src="https://img.shields.io/badge/AGENT_BOTS-43E55E?style=flat-square"/>
+  <img src="https://img.shields.io/badge/🇪🇺_EUROPEAN_VALUES-003399?style=flat-square"/>
 </p>
 
 <!-- ANIMATED SEPARATOR -->
@@ -24,25 +37,49 @@
 
 </div>
 
+<!-- PHILOSOPHY SECTION -->
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> Philosophy
+
+> **I design AI systems to expand human potential, not to quietly phase humans out.**
+
+The core constraint in my work is simple: any automation must protect dignity, improve quality of life, and leave people with **more agency, not less**. That means treating AI as an *exoskeleton for human skill*—amplifying judgment, creativity, and learning—while insisting on a clear, democratic transition instead of a silent replacement.
+
+The question is never just *"Can we automate this?"* but **"How do we retrain, redistribute, and redesign work so people move upward, not out?"**
+
+I work from a European perspective: technology and markets are powerful, but they do not get to define society alone. Every product, workflow, or agent I design is a small negotiation with the future—where efficiency is welcome, but only when **transparency, fairness, and human flourishing** remain non-negotiable.
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
 <!-- ABOUT ME SECTION -->
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> About Me
+## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="30"> What I Do
 
 ```typescript
 const raul = {
-    location: "🇪🇸 Spain (Remote EU)",
-    role: "Full-Stack Product Developer & 3D Artist",
+    role: "Product-Oriented AI Engineer",
+    location: "🇪🇸 Spain · Remote EU",
     
-    currentFocus: [
-        "🚀 Building web/AI/3D MVPs ready for real users",
-        "🛒 3D product experiences (web shops, virtual showrooms)",
-        "⚡ Real-time rendering optimization for the web",
-        "🤖 AI-assisted workflows for 3D and software production"
+    approach: {
+        philosophy: "AI as exoskeleton, not replacement",
+        method: "Idea → Architecture → MVP → Deploy → Iterate",
+        focus: ["Rapid Prototyping", "End-to-End Delivery", "User Dopamine"]
+    },
+    
+    delivers: [
+        "AI-powered MVPs from meeting to production",
+        "Web apps with auth, data, and intelligent features",
+        "Interactive 3D experiences in the browser",
+        "LLM assistants and workflow automations",
+        "Internal tools that actually get used"
     ],
     
-    funFact: "I lead a multidisciplinary team working on everything from " +
-             "cultural experiences to experimental games and 3D interactive commerce",
-    
-    motto: "Ship something real, learn fast, turn ideas into working software"
+    principles: [
+        "Ship early, collect feedback, refine fast",
+        "Performance + Maintainability + Clarity",
+        "SEXY UI/UX = User Interaction = User DOPAMINE",
+        "Technology serves humans, not the reverse"
+    ]
 };
 ```
 
@@ -55,35 +92,61 @@ const raul = {
 
 <div align="center">
 
-### 🎨 Frontend & Design
+<table>
+<tr>
+<td align="center" width="50%">
+
+### ⚛️ Frontend
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind,threejs&theme=dark" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind,threejs&theme=dark" />
 </p>
+
+`React` `Next.js` `TypeScript` `Tailwind` `Three.js` `WebGL`
+
+</td>
+<td align="center" width="50%">
 
 ### ⚙️ Backend & Data
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,supabase,postgres,python,firebase&theme=dark" />
+<img src="https://skillicons.dev/icons?i=nodejs,python,supabase,postgres,firebase&theme=dark" />
 </p>
 
-### 🎮 3D & Game Engines
+`Node.js` `Python` `Supabase` `PostgreSQL` `REST APIs`
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+### 🤖 AI & Agents
 <p>
-  <img src="https://skillicons.dev/icons?i=blender,unity,unreal,godot&theme=dark" />
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logoColor=white" />
+</p>
+<p>
+<img src="https://img.shields.io/badge/RAG-667EEA?style=for-the-badge" />
+<img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
 </p>
 
-### 🤖 AI & Automation
+`LLM APIs` `Embeddings` `Vector Search` `Agent Workflows`
+
+</td>
+<td align="center" width="50%">
+
+### 🔧 Automation & Tools
 <p>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
-  <img src="https://img.shields.io/badge/RAG-667EEA?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
+<img src="https://img.shields.io/badge/Zapier-FF4A00?style=for-the-badge&logo=zapier&logoColor=white" />
+</p>
+<p>
+<img src="https://skillicons.dev/icons?i=git,vscode,figma,blender&theme=dark" />
 </p>
 
-### 🔧 Tools & CAD
-<p>
-  <img src="https://img.shields.io/badge/Fusion_360-FF6F00?style=for-the-badge&logo=autodesk&logoColor=white" />
-  <img src="https://img.shields.io/badge/SolidWorks-FF0000?style=for-the-badge&logoColor=white" />
-  <img src="https://skillicons.dev/icons?i=git,vscode,figma&theme=dark" />
-</p>
+`Workflow Automation` `API Integrations` `3D Modeling`
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -96,136 +159,117 @@ const raul = {
 
 <div align="center">
 
-<!-- Project Cards Grid -->
+<!-- 3D SHOP SHOWCASE -->
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="100%">
 
-### 🏖️ Hooladay
-<a href="https://hooladay.vercel.app/">
-  <img src="https://img.shields.io/badge/LIVE_DEMO-667EEA?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-**Vacation & day-off planner SaaS prototype**
-
-`Next.js` `Supabase` `TypeScript`
-
-> UI designed to be simple, "addictive" to use
-
-</td>
-<td width="50%" valign="top">
-
-### 👟 3D Shop Showcase
+### 👟 ULTRA-FAST 3D PRODUCT VIEWER
 <a href="https://3d-shop-showcase.vercel.app/">
-  <img src="https://img.shields.io/badge/LIVE_DEMO-764BA2?style=for-the-badge&logo=vercel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-667EEA?style=for-the-badge"/>
 </a>
 
-**3D sneaker selector for e-commerce**
+**See it real. Instantly.**
 
-`Next.js` `Three.js` `WebGL`
+Let customers explore products in photorealistic 3D—loading in **milliseconds, not seconds**. Real objects captured with photogrammetry, optimized for instant viewing on any device.
 
-> Interactive viewer with variant logic ready for shop backend
+`Next.js` `Three.js` `WebGL` `Photogrammetry`
 
 </td>
 </tr>
+</table>
 
+<!-- RENAULT 5 TRIBUTE -->
+<table>
 <tr>
-<td width="50%" valign="top">
+<td width="100%">
 
-### 🏛️ MAVII
-<a href="https://www.mavii.eu/landing_page.html">
-  <img src="https://img.shields.io/badge/LIVE_DEMO-43E55E?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+### 🚗 Renault 5 E-Tech WebGL Tribute
+<a href="https://showroomcar-alpha.vercel.app/">
+  <img src="https://img.shields.io/badge/🎨_LIVE_DEMO-764BA2?style=for-the-badge"/>
 </a>
 
-**Accessible Virtual Museum** 🏆 *Innovation Award*
+**Fan-made interactive artwork**
 
-`Narrative` `Branding` `Virtual Tours`
+Out of pure admiration for the Renault 5 and its new electric chapter—a personal experiment where the car becomes a playful interactive 3D object with cinematic camera movement and lighting. Made purely for fun and love of design.
 
-> Recognized project for accessible cultural experiences
+`WebGL` `Three.js` `Cinematic Lighting` `Interactive 3D`
 
-</td>
-<td width="50%" valign="top">
-
-### 🌌 Gaussian Splatting Web
-<a href="https://web-gaussian-splatting-raul-iglesias.vercel.app/">
-  <img src="https://img.shields.io/badge/LIVE_DEMO-FF6F00?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-**3D scene in browser with custom controls**
-
-`WebGL` `Shaders` `Real-time`
-
-> FOV, fog, animations running in real time
+> *Not official, not sponsored—just a tribute.*
 
 </td>
 </tr>
+</table>
 
+<!-- DREAMLY -->
+<table>
 <tr>
-<td width="50%" colspan="2" align="center">
+<td width="100%">
 
-### ✈️ Dreamly - RAG Travel Assistant
+### ✈️ Dreamly — RAG Travel Assistant
 <a href="https://dreamly-delta.vercel.app/architecture">
-  <img src="https://img.shields.io/badge/LIVE_DEMO-EA4B71?style=for-the-badge&logo=vercel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/🧠_LIVE_DEMO-EA4B71?style=for-the-badge"/>
 </a>
 
 **AI travel copilot with semantic search**
 
-`Next.js` `n8n` `OpenAI` `Supabase/pgvector`
+Full RAG architecture: clarification flows, embeddings, vector search with pgvector, and verified answers. An intelligent assistant that actually understands travel context.
 
-> Clarification, embeddings, vector search and verified answers
+`Next.js` `n8n` `OpenAI` `Supabase` `pgvector` `LangChain`
+
+</td>
+</tr>
+</table>
+
+<!-- TWO COLUMN -->
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🌌 Gaussian Splatting Web
+<a href="https://web-gaussian-splatting-raul-iglesias.vercel.app/">
+  <img src="https://img.shields.io/badge/LIVE-FF6F00?style=for-the-badge"/>
+</a>
+
+Real-time 3D scene in browser with custom controls: FOV, fog, animations, and shaders.
+
+`WebGL` `Shaders` `Real-time Rendering`
+
+</td>
+<td width="50%" valign="top">
+
+### 🏖️ Hooladay
+<a href="https://hooladay.vercel.app/">
+  <img src="https://img.shields.io/badge/LIVE-43E55E?style=for-the-badge"/>
+</a>
+
+Vacation & day-off planner SaaS prototype. UI designed to be simple, "addictive" to use.
+
+`Next.js` `Supabase` `TypeScript`
+
+</td>
+</tr>
+</table>
+
+<!-- MAVII -->
+<table>
+<tr>
+<td width="100%">
+
+### 🏛️ MAVII — Accessible Virtual Museum
+<a href="https://www.mavii.eu/landing_page.html">
+  <img src="https://img.shields.io/badge/🏆_INNOVATION_AWARD-003399?style=for-the-badge"/>
+</a>
+
+Narrative + branding + virtual tours for cultural accessibility. A recognized project proving that technology should open doors, not close them.
+
+`Virtual Tours` `Accessibility` `Cultural Tech`
 
 </td>
 </tr>
 </table>
 
 </div>
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-</div>
-
-<!-- WHAT I DO -->
-## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="30"> What I Do
-
-<details>
-<summary><b>🌐 Web & Software MVPs</b></summary>
-<br>
-
-- Landing pages, dashboards, internal tools and small SaaS products
-- From idea → architecture → implementation → deploy, **solo end-to-end**
-- Focus on shipping functional products that work for real users
-
-</details>
-
-<details>
-<summary><b>🎮 3D & Immersive Experiences</b></summary>
-<br>
-
-- Game-ready assets and scenes (weapons, robots, vehicles, sci-fi hard surface)
-- Web-based 3D experiences (product viewers, virtual tours, Gaussian Splatting)
-- VR/AR/XR prototypes and interactive storytelling
-
-</details>
-
-<details>
-<summary><b>🤖 AI & Automation</b></summary>
-<br>
-
-- RAG-based assistants (travel, shopping, interview prep, etc.)
-- Workflows with n8n, APIs and webhooks connected to real data
-- Semantic search with vector databases (pgvector / Supabase)
-
-</details>
-
-<details>
-<summary><b>✨ Creative Product Design</b></summary>
-<br>
-
-- UX-first approach: clear flows, simple interactions, visual consistency
-- Prototyping ideas quickly to test narrative, branding and user engagement
-- Building things that people actually want to use
-
-</details>
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -247,9 +291,6 @@ const raul = {
 <!-- ACTIVITY GRAPH -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=RaulJuliosIglesias&bg_color=0D1117&color=667eea&line=764ba2&point=FFFFFF&area=true&hide_border=true" width="100%"/>
 
-<!-- TROPHIES -->
-<img src="https://github-profile-trophy.vercel.app/?username=RaulJuliosIglesias&theme=discord&no-frame=true&no-bg=true&margin-w=4&row=1" width="100%"/>
-
 </div>
 
 <div align="center">
@@ -261,12 +302,13 @@ const raul = {
 
 <div align="center">
 
-| 🎯 Looking For | Description |
+| 🎯 | Looking For |
 |:---:|:---|
-| 🚀 **Product Teams** | Fast, high-quality MVPs (web, AI, tools) |
-| 🎮 **Game Studios** | Indie / AA and VR/AR/XR projects |
-| 🏛️ **Cultural Institutions** | Digital twins and virtual experiences |
-| 💡 **Startups** | New ways to present products and information |
+| 🚀 | **Product Teams** — Fast, high-quality MVPs (web, AI, internal tools) |
+| 🤖 | **AI Projects** — RAG systems, LLM agents, intelligent automation |
+| 🎮 | **3D/Interactive** — Web experiences, product viewers, virtual showrooms |
+| 🏛️ | **Cultural & Institutional** — Digital twins, accessible experiences |
+| 💡 | **Startups** — Rapid prototyping, idea → working product |
 
 </div>
 
@@ -285,9 +327,6 @@ const raul = {
 <a href="https://www.linkedin.com/in/rauliglesiasjulios">
   <img src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-<a href="https://www.youtube.com/@Blender-Warehouse">
-  <img src="https://img.shields.io/badge/Subscribe-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
-</a>
 <a href="https://github.com/RaulJuliosIglesias">
   <img src="https://img.shields.io/badge/Follow-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
@@ -300,13 +339,13 @@ const raul = {
 
 ### 💭 *"Ship something real, learn fast, and turn good ideas into working software."*
 
-</div>
+<br>
 
 <!-- SNAKE ANIMATION -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-  </picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
+</picture>
+
 </div>
