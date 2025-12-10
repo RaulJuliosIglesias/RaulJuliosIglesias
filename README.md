@@ -17,9 +17,6 @@
   <a href="https://www.linkedin.com/in/rauliglesiasjulios">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://www.youtube.com/@Blender-Warehouse">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
-  </a>
 </p>
 
 <!-- ANIMATED SEPARATOR -->
