@@ -280,10 +280,11 @@ Narrative + branding + virtual tours for cultural accessibility. A recognized pr
 
 <div align="center">
 
-<a href="https://github.com/RaulJuliosIglesias">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=RaulJuliosIglesias&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=764ba2&text_color=c9d1d9"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaulJuliosIglesias&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=c9d1d9"/>
-</a>
+<!-- Opción 1: GitHub Readme Stats (instancia oficial) -->
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=RaulJuliosIglesias&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RaulJuliosIglesias&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
+</div>
 
 <!-- STREAK STATS -->
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=RaulJuliosIglesias&theme=tokyonight&hide_border=true&background=0D1117&stroke=667eea&ring=764ba2&fire=FF6F00&currStreakLabel=667eea" />
