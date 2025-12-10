@@ -283,7 +283,6 @@ Narrative + branding + virtual tours for cultural accessibility. A recognized pr
 <!-- Opción 1: GitHub Readme Stats (instancia oficial) -->
 <div align="center">
   <a href="https://github.com/RaulJuliosIglesias">
-    <img src="https://streak-stats.demolab.com/?user=RaulJuliosIglesias&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D"/>
   </a>
 </div>
 
