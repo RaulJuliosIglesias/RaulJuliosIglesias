@@ -1,49 +1,51 @@
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="./assets/generated/hero-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="./assets/generated/hero-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/hero-light.svg">
-  <img alt="Raúl Iglesias Julios — Creative Technologist and World Builder. Current chapter: Systems people can enter." src="./assets/generated/hero-light.svg" width="100%">
+  <source media="(max-width: 520px)" srcset="./assets/artbook-v3/hero-mobile.png">
+  <img src="./assets/artbook-v3/hero-desktop.png" alt="Player portrait inside an Atlantic field station overlooking an atlas table, volcanic coastline and lighthouse." width="100%">
 </picture>
 
-> I build digital worlds where intelligence, space and story become useful tools.<br>
-> The work moves between browser-native 3D, human-first AI, cultural access and small systems that make complexity legible.
+<sub>ATLANTIC PIXEL ARTBOOK · VOL. III / ATLANTIC NODE</sub>
 
-[`SIX WORLDS`](#act-i--six-worlds) · [`METHOD`](#act-ii--how-the-worlds-are-made) · [`FIELD NOTES`](#act-iii--field-notes) · [`APPENDIX`](#appendix--inventory-and-marginalia)
+# Raúl Iglesias Julios
+
+**Creative technologist · world builder**
+
+I build digital worlds where intelligence, space and story become useful tools.
+
+The work moves between browser-native 3D, human-first AI, cultural access and small systems that make complexity legible.
+
+> **Current thread:** turn complex systems into places people can understand.
+
+[`ENTER THE ATLAS`](#act-i--six-worlds) · [`VISIT THE WORKSHOP`](#act-ii--the-workshop) · [`OPEN THE APPENDIX`](#appendix--inventory-and-marginalia)
 
 ## Act I — Six Worlds
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="./assets/generated/atlas-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="./assets/generated/atlas-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/atlas-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/atlas-light.svg">
-  <img alt="Connected atlas of six projects spanning motion, spatial computing, cultural access, human-first AI, agent orchestration and energy engineering." src="./assets/generated/atlas-light.svg" width="100%">
+  <source media="(max-width: 520px)" srcset="./assets/artbook-v3/atlas-mobile.png">
+  <img src="./assets/artbook-v3/atlas-desktop.png" alt="An Atlantic archipelago connecting six distinct worlds: a vehicle hangar, volumetric monument, museum portal, evidence observatory, agent control room and solar house." width="100%">
 </picture>
 
-The map is not a ranking. It is a route through six different ways of making a system understandable: movement, volume, access, evidence, orchestration and energy.
+The route moves through six kinds of legibility: **motion, volume, access, evidence, orchestration and energy.**
 
 <a id="world-01"></a>
 <details open>
-<summary><strong>01 / MOTION — Renault 5 Turbo 3E</strong> · open dossier</summary>
+<summary><strong>01 · MOTION / INTERACTIVE 3D</strong> — Renault 5 Turbo 3E</summary>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/world-01-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/world-01-light.svg">
-  <img alt="Renault 5 Turbo 3E field plate with a technical vehicle outline, camera marks and motion lines." src="./assets/generated/world-01-light.svg" width="100%">
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/artbook-v3/worlds/renault-5-turbo-3e.webp" type="image/webp">
+  <img src="./assets/artbook-v3/worlds/renault-5-turbo-3e.png" alt="A black-and-white widebody concept car in a violet-grey industrial studio beside a lone Atlantic player figure." width="100%">
 </picture>
 
-### A vehicle scene with a point of view
+### Camera as narrator
 
-A cinematic WebGL tribute built around exploration, annotated vehicle details and a twenty-step sequence. The camera acts as narrator: it controls pace, reveals context and turns inspection into a spatial story.
+A cinematic WebGL tribute built around a real-time vehicle scene, annotated details and a twenty-step sequence. The camera controls pace: each viewpoint turns inspection into part of the story.
 
-**What you can do:** move through a real-time vehicle scene, shift viewpoints and uncover details through a guided sequence.
+**In the world:** move through the scene, shift viewpoints and uncover details along a guided spatial route.
 
-**Built around:** camera as narrator · progressive detail · real-time lighting.
+`CAMERA AS NARRATOR` · `PROGRESSIVE DETAIL` · `REAL-TIME LIGHTING`
 
-[Read the case study](https://github.com/RaulJuliosIglesias/renault-5-webgl-case-study) · [Enter the live world](https://showroomcar-alpha.vercel.app/)
+[Read the case study](https://github.com/RaulJuliosIglesias/renault-5-webgl-case-study) · [Enter the live experience](https://showroomcar-alpha.vercel.app/)
 
 > **Fan-made study.** Not affiliated with, endorsed by or sponsored by Renault or Renault Group.
 
@@ -51,23 +53,22 @@ A cinematic WebGL tribute built around exploration, annotated vehicle details an
 
 <a id="world-02"></a>
 <details>
-<summary><strong>02 / VOLUME — Gaussian Splatting Web</strong> · open dossier</summary>
+<summary><strong>02 · VOLUME / SPATIAL WEB</strong> — Gaussian Splatting Web</summary>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/world-02-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/world-02-light.svg">
-  <img alt="Gaussian Splatting field plate showing a volumetric point cloud, camera axes and field-of-view marks." src="./assets/generated/world-02-light.svg" width="100%">
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/artbook-v3/worlds/gaussian-splatting-web.webp" type="image/webp">
+  <img src="./assets/artbook-v3/worlds/gaussian-splatting-web.png" alt="A tilted industrial monument dissolving into spatial particles above a wet Atlantic landscape." width="100%">
 </picture>
 
 ### When a point field becomes a place
 
-A browser laboratory for navigating captured volume through splats, custom shaders, fog and camera controls. It treats atmosphere and field of view as tools for reading space, not as decorative settings.
+A browser experiment for navigating captured volume through Gaussian splats, fog and camera controls. Atmosphere and field of view become instruments for reading depth.
 
-**What you can do:** orbit a spatial capture, alter field of view and atmosphere, and study how a volumetric scene changes under different viewing conditions.
+**In the world:** orbit the capture, move through the scene, change field of view and tune the fog.
 
-**Built around:** volume over mesh · atmosphere controls · camera literacy.
+`VOLUME OVER MESH` · `ATMOSPHERE CONTROLS` · `CAMERA LITERACY`
 
 [Read the case study](https://github.com/RaulJuliosIglesias/gaussian-splatting-web-case-study) · [Explore the live scene](https://web-gaussian-splatting-raul-iglesias.vercel.app/)
 
@@ -75,23 +76,22 @@ A browser laboratory for navigating captured volume through splats, custom shade
 
 <a id="world-03"></a>
 <details>
-<summary><strong>03 / ACCESS — MAVI</strong> · open dossier</summary>
+<summary><strong>03 · ACCESS / CULTURAL SPACE</strong> — MAVI</summary>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/world-03-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/world-03-light.svg">
-  <img alt="MAVI field plate showing an open museum floor plan, accessible thresholds and a narrative route." src="./assets/generated/world-03-light.svg" width="100%">
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/artbook-v3/worlds/mavi.webp" type="image/webp">
+  <img src="./assets/artbook-v3/worlds/mavi.png" alt="An open stone museum threshold becomes a blue digital mesh beside an accessible coastal route." width="100%">
 </picture>
 
 ### Culture as an open route
 
-*Museo Accesible Virtual Interactivo* is a digital museum conceived around access, circulation and narrative wayfinding. It asks what a museum can become when the interface is part of the curatorial space.
+*Museo Accesible Virtual Interactivo* explores a Canarian museum as a navigable digital space. Architecture, points of interest and interface tools form one continuous route.
 
-**What you can do:** enter a virtual museum, follow a spatial story and encounter cultural material through an accessible interface.
+**In the world:** cross the portal, follow the museum path and encounter cultural material through its spatial viewer.
 
-**Built around:** access from the start · open circulation · narrative wayfinding.
+`ACCESS FROM THE START` · `OPEN CIRCULATION` · `NARRATIVE WAYFINDING`
 
 [Read the case study](https://github.com/RaulJuliosIglesias/mavi-virtual-museum-case-study) · [Visit MAVI](https://www.mavii.eu/landing_page.html)
 
@@ -99,23 +99,22 @@ A browser laboratory for navigating captured volume through splats, custom shade
 
 <a id="world-04"></a>
 <details>
-<summary><strong>04 / EVIDENCE — Dreamly</strong> · open dossier</summary>
+<summary><strong>04 · EVIDENCE / HUMAN-FIRST AI</strong> — Dreamly</summary>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/world-04-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/world-04-light.svg">
-  <img alt="Dreamly field plate tracing a question through retrieval, verification and a grounded response." src="./assets/generated/world-04-light.svg" width="100%">
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/artbook-v3/worlds/dreamly.webp" type="image/webp">
+  <img src="./assets/artbook-v3/worlds/dreamly.png" alt="A coastal travel observatory connected by a visible route from question to retrieved evidence and guarded response." width="100%">
 </picture>
 
 ### Intelligence with a visible route
 
-A travel assistant whose architecture connects clarification, retrieval, evidence checks and guardrails. The useful part is not simply the answer; it is being able to understand how the system reached it and where its limits remain.
+A travel assistant architecture that connects clarification, retrieval, evidence and guardrails. The route to an answer remains inspectable instead of disappearing behind the interface.
 
-**What you can do:** trace how a request becomes a grounded response instead of treating intelligence as an unexplained black box.
+**In the world:** follow a request from question to retrieval, evidence checks and the final grounded response.
 
-**Built around:** clarify before answering · evidence in the route · guardrails made visible.
+`CLARIFY FIRST` · `EVIDENCE IN THE ROUTE` · `VISIBLE GUARDRAILS`
 
 [Read the case study](https://github.com/RaulJuliosIglesias/dreamly-rag-case-study) · [Inspect the live architecture](https://dreamly-delta.vercel.app/architecture)
 
@@ -123,104 +122,86 @@ A travel assistant whose architecture connects clarification, retrieval, evidenc
 
 <a id="world-05"></a>
 <details>
-<summary><strong>05 / ORCHESTRATION — KOVA</strong> · open dossier</summary>
+<summary><strong>05 · ORCHESTRATION / AGENT SYSTEM</strong> — KOVA</summary>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/world-05-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/world-05-light.svg">
-  <img alt="KOVA field plate connecting an agent core to model providers, backends, channels and a security pipeline." src="./assets/generated/world-05-light.svg" width="100%">
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/artbook-v3/worlds/kova.webp" type="image/webp">
+  <img src="./assets/artbook-v3/worlds/kova.png" alt="An Atlantic operations room links model providers, an agent core and communication channels through a visible control surface." width="100%">
 </picture>
 
-### An agent system you can inspect
+### The system behind the agent
 
-KOVA is an administration surface for configuring a model provider, agent backend and communication channels. Deployment and security are shown as parts of the product rather than hidden setup work.
+KOVA is an administration surface for configuring a model provider, an agent backend and communication channels. Setup and security are treated as visible parts of the system.
 
-**What you can do:** choose a provider, connect a backend and inspect Telegram, WhatsApp and Discord paths alongside the security pipeline.
+**In the world:** choose a provider, connect the backend and inspect the routes into supported channels.
 
-**Built around:** setup in three moves · provider independence · security as interface.
+`THREE-PART SETUP` · `PROVIDER CHOICE` · `SECURITY AS INTERFACE`
 
-[Open KOVA](https://kova-rosy.vercel.app/) · [Read the portfolio record](https://rauliglesiasjulios.com/en/projects/kova)
+[Open KOVA](https://kova-rosy.vercel.app/) · [Read the public project record](https://rauliglesiasjulios.com/en/projects/kova)
 
-*The implementation repository is private; these links point only to the deployed experience and its public portfolio record.*
+*Public evidence is limited to the deployed experience and portfolio record; the implementation repository is private.*
 
 </details>
 
 <a id="world-06"></a>
 <details>
-<summary><strong>06 / ENERGY — SolarScope</strong> · open dossier</summary>
+<summary><strong>06 · ENERGY / ENGINEERING TOOL</strong> — SolarScope</summary>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/world-06-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/world-06-light.svg">
-  <img alt="SolarScope field plate showing a sun path, photovoltaic array, physical losses and an energy curve." src="./assets/generated/world-06-light.svg" width="100%">
+  <source media="(prefers-reduced-motion: no-preference)" srcset="./assets/artbook-v3/worlds/solarscope.webp" type="image/webp">
+  <img src="./assets/artbook-v3/worlds/solarscope.png" alt="An Atlantic house with a photovoltaic roof, a marked sun path and a legible energy station." width="100%">
 </picture>
 
 ### Engineering as a legible scenario
 
-SolarScope—also catalogued as Solar Panel App—is a browser-side photovoltaic configurator for exploring components, physical losses, generation and long-horizon scenarios for homes in Spain.
+SolarScope—also catalogued as *Solar Panel App*—is a browser-side photovoltaic configurator for exploring components, physical losses, generation and long-horizon scenarios.
 
-**What you can do:** shape a residential installation, compare assumptions and read the engineering consequences as a connected system.
+**In the world:** shape a residential solar setup, compare assumptions and read their engineering consequences as one connected system.
 
-**Built around:** no-login exploration · physical losses exposed · scenario comparison.
+`EXPLORATION FIRST` · `PHYSICAL LOSSES EXPOSED` · `SCENARIO COMPARISON`
 
-[Open SolarScope](https://solar-panel-app-ruddy.vercel.app/) · [Read the portfolio record](https://rauliglesiasjulios.com/en/projects/solar-panel-app)
+[Open SolarScope](https://solar-panel-app-ruddy.vercel.app/) · [Read the public project record](https://rauliglesiasjulios.com/en/projects/solar-panel-app)
 
-*The implementation repository is private; these links point only to the deployed experience and its public portfolio record.*
+*Public evidence is limited to the deployed experience and portfolio record; the implementation repository is private.*
 
 </details>
 
-## Act II — How the Worlds Are Made
+## Act II — The Workshop
 
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="./assets/generated/method-mobile-dark.svg">
-  <source media="(max-width: 520px)" srcset="./assets/generated/method-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/method-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/method-light.svg">
-  <img alt="A six-stage making loop—Observe, Frame, Prototype, Build, Tune and Release—crossed by Space, Systems and Intelligence." src="./assets/generated/method-light.svg" width="100%">
+  <img src="./assets/artbook-v3/workshop.png" alt="A long Atlantic workshop moving from observation and framing through prototypes, construction, tuning and release." width="100%">
 </picture>
 
-`OBSERVE → FRAME → PROTOTYPE → BUILD → TUNE → RELEASE → OBSERVE AGAIN`
+`OBSERVE` → `FRAME` → `PROTOTYPE` → `BUILD` → `TUNE` → `RELEASE` → `OBSERVE AGAIN`
 
-- **Keep the human in the loop.** Judgment, context and responsibility remain visible.
-- **Make complexity visible.** Architecture should help someone understand the system they are using.
-- **Let interaction earn its place.** Motion, depth and intelligence need a reason to be there.
+The same loop crosses three working territories:
 
-The loop crosses three working territories: **Space** (`Three.js · WebGL · GLSL · Gaussian Splatting`), **Systems** (`Next.js · TypeScript · Node.js · Supabase · PostgreSQL`) and **Intelligence** (`OpenAI · RAG · embeddings · pgvector · agent workflows`).
+- **Space** — Three.js, WebGL, GLSL and Gaussian Splatting.
+- **Systems** — Next.js, TypeScript, Node.js, Supabase and PostgreSQL.
+- **Intelligence** — OpenAI, RAG, embeddings, pgvector and agent workflows.
 
-## Act III — Field Notes
+Three rules stay on the workbench:
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/field-note-01-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/field-note-01-light.svg">
-  <img alt="Field note 01: Spatial interfaces, illustrated by intersecting camera orbits and a point of attention." src="./assets/generated/field-note-01-light.svg" width="100%">
-</picture>
+- Keep the human in the loop.
+- Make complexity visible.
+- Let interaction earn its place.
 
-**Spatial interfaces.** Navigation, camera and depth become useful when they help someone form a mental model.
+### Field notes
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/field-note-02-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/field-note-02-light.svg">
-  <img alt="Field note 02: Visible intelligence, illustrated by a signal passing through a marked decision point." src="./assets/generated/field-note-02-light.svg" width="100%">
-</picture>
+**01 / Spatial interfaces.** Navigation, camera and depth become useful when they help someone form a mental model.
 
-**Visible intelligence.** Sources, decisions and limits belong in the interface—not behind the curtain.
+**02 / Visible intelligence.** Sources, decisions and limits belong in the interface—not behind the curtain.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/field-note-03-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/field-note-03-light.svg">
-  <img alt="Field note 03: Accessible culture, illustrated by an open architectural threshold and a route crossing it." src="./assets/generated/field-note-03-light.svg" width="100%">
-</picture>
-
-**Accessible culture.** Digital space can widen access to culture instead of merely reproducing a physical room.
+**03 / Accessible culture.** Digital space can widen access to culture instead of merely reproducing a physical room.
 
 ## Appendix — Inventory and Marginalia
 
 <details>
-<summary><strong>Open inventory</strong> · tools grouped by what they help make</summary>
+<summary><strong>Field inventory</strong> — tools grouped by what they help make</summary>
 
 ### Worldmaking
 
@@ -241,11 +222,11 @@ The loop crosses three working territories: **Space** (`Three.js · WebGL · GLS
 </details>
 
 <details>
-<summary><strong>Appendix 00</strong> · open only if curious</summary>
+<summary><strong>Appendix 00</strong> — open only if curious</summary>
 
-I like prototypes because they are honest: they reveal what an idea can do, where it resists and what still needs to be learned.
+I keep returning to prototypes because they make an idea answerable. They reveal what works, what resists and what still needs to be learned.
 
-The craft lives between disciplines—part engineering, part visual language, part observation. The goal is not to remove uncertainty. It is to give people better instruments for moving through it.
+The craft sits between disciplines: part engineering, part visual language, part observation. I am interested in tools that do more than perform a task—tools that leave people with a clearer map of the thing they just used.
 
 </details>
 
