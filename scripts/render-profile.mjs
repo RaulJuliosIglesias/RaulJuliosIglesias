@@ -47,8 +47,8 @@ function render(themeName, theme) {
   }).join("");
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
-  <title id="title">${esc(profile.identity.name)} â€” ${esc(profile.identity.role)}</title>
-  <desc id="desc">An editorial pixel-art RPG interface presenting RaÃºl as a World Builder. Current quest: ${esc(profile.currentQuest.title)}.</desc>
+  <title id="title">${esc(profile.identity.name)} — ${esc(profile.identity.role)}</title>
+  <desc id="desc">An editorial pixel-art RPG interface presenting Raúl as a World Builder. Current quest: ${esc(profile.currentQuest.title)}.</desc>
   <defs>
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
       <path d="M24 0H0V24" fill="none" stroke="${theme.grid}" stroke-width="1" opacity="0.34"/>
@@ -96,18 +96,18 @@ function render(themeName, theme) {
     <path d="M0 169H492" stroke="${theme.grid}"/>
     <text x="16" y="159" class="label" fill="${theme.orange}">${esc(profile.currentQuest.label)}</text>
     <text x="16" y="199" class="body" fill="${theme.ink}">${esc(profile.currentQuest.title)}</text>
-    <text x="476" y="159" class="label blink" text-anchor="end" fill="${theme.cobalt}">${esc(profile.currentQuest.status)} â—</text>
+    <text x="476" y="159" class="label blink" text-anchor="end" fill="${theme.cobalt}">${esc(profile.currentQuest.status)} ●</text>
     <rect x="16" y="222" width="360" height="12" fill="${theme.grid}"/>
     <rect x="16" y="222" width="${barWidth}" height="12" fill="${theme.orange}"/>
     <path d="M16 240H376" stroke="${theme.ink}" stroke-dasharray="2 10" opacity=".35"/>
     <text x="476" y="233" class="label" text-anchor="end" fill="${theme.muted}">${p}% SIGNAL</text>
-    <text x="16" y="252" class="small" fill="${theme.muted}">${esc(profile.identity.location)}  Â·  HUMAN-FIRST SYSTEMS</text>
+    <text x="16" y="252" class="small" fill="${theme.muted}">${esc(profile.identity.location)}  ·  HUMAN-FIRST SYSTEMS</text>
   </g>
 
   <rect class="scan" x="12" y="0" width="876" height="2" fill="${theme.orangeSoft}" opacity=".24"/>
   <path d="M22 397h18v-4h12v4h18" stroke="${theme.cobalt}" stroke-width="2" fill="none"/>
   <text x="878" y="399" class="label" text-anchor="end" fill="${theme.muted}">${themeName.toUpperCase()} MODE // NO VANITY METRICS</text>
-</svg>`;
+</svg>\r\n`;
 }
 
 const outputDir = resolve(root, "assets/generated");
@@ -118,4 +118,3 @@ for (const [name, theme] of Object.entries(themes)) {
 }
 
 console.log("Rendered hero-light.svg and hero-dark.svg");
-
