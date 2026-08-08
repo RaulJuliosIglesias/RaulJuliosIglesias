@@ -50,4 +50,3 @@ jobs:
           git add assets/generated
           git commit -m "Refresh profile artwork [skip ci]"
           git push
-
