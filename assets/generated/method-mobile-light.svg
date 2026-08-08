@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="732" viewBox="0 0 420 732" role="img" aria-labelledby="title desc">
+  <title id="title">Mobile map of the making method</title>
+  <desc id="desc">A six-stage loop: Observe, Frame, Prototype, Build, Tune, Release, crossing Space, Systems and Intelligence.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#D2C4AD" stroke-width="1" opacity=".42"/>
+    </pattern>
+    <pattern id="dither" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="2" height="2" fill="#244BC4" opacity=".2"/>
+      <rect x="4" y="4" width="2" height="2" fill="#C9431C" opacity=".16"/>
+    </pattern>
+    <style>
+      .serif { font-family: Georgia, 'Times New Roman', serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .label { font: 700 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 2px; text-transform: uppercase; }
+      .small { font: 600 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .45px; }
+      .body { font: 600 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .editorial { font: 700 32px Georgia, 'Times New Roman', serif; }
+      .display { font: 700 48px Georgia, 'Times New Roman', serif; letter-spacing: -1.5px; }
+
+    </style>
+  </defs>
+  <rect width="420" height="732" rx="12" fill="#F2EADB"/>
+  <rect x="10" y="10" width="400" height="712" rx="8" fill="url(#grid)" stroke="#151515" stroke-width="2"/>
+<text x="22" y="39" class="label" fill="#C9431C">ACT II / MAKING LOOP</text>
+  <text x="398" y="39" class="label" text-anchor="end" fill="#635D52">OBSERVE AGAIN ↺</text>
+  <path d="M10 58H410" stroke="#151515" stroke-width="2"/>
+  <path d="M114 170c44 18 148 18 192 0M114 274c44 18 148 18 192 0" fill="none" stroke="#244BC4" stroke-width="3" stroke-dasharray="6 8"/>
+  <g transform="translate(30 92)">
+      <rect width="170" height="78" rx="5" fill="#FFF8EC" stroke="#C9431C" stroke-width="3"/>
+      <text x="16" y="24" class="label" fill="#C9431C">01</text>
+      <text x="16" y="55" class="serif" font-size="21" font-weight="700" fill="#151515">Observe</text>
+    </g><g transform="translate(220 92)">
+      <rect width="170" height="78" rx="5" fill="#FFF8EC" stroke="#151515" stroke-width="3"/>
+      <text x="16" y="24" class="label" fill="#635D52">02</text>
+      <text x="16" y="55" class="serif" font-size="21" font-weight="700" fill="#151515">Frame</text>
+    </g><g transform="translate(30 196)">
+      <rect width="170" height="78" rx="5" fill="#FFF8EC" stroke="#151515" stroke-width="3"/>
+      <text x="16" y="24" class="label" fill="#635D52">03</text>
+      <text x="16" y="55" class="serif" font-size="21" font-weight="700" fill="#151515">Prototype</text>
+    </g><g transform="translate(220 196)">
+      <rect width="170" height="78" rx="5" fill="#FFF8EC" stroke="#151515" stroke-width="3"/>
+      <text x="16" y="24" class="label" fill="#635D52">04</text>
+      <text x="16" y="55" class="serif" font-size="21" font-weight="700" fill="#151515">Build</text>
+    </g><g transform="translate(30 300)">
+      <rect width="170" height="78" rx="5" fill="#FFF8EC" stroke="#151515" stroke-width="3"/>
+      <text x="16" y="24" class="label" fill="#635D52">05</text>
+      <text x="16" y="55" class="serif" font-size="21" font-weight="700" fill="#151515">Tune</text>
+    </g><g transform="translate(220 300)">
+      <rect width="170" height="78" rx="5" fill="#FFF8EC" stroke="#C9431C" stroke-width="3"/>
+      <text x="16" y="24" class="label" fill="#C9431C">06</text>
+      <text x="16" y="55" class="serif" font-size="21" font-weight="700" fill="#151515">Release</text>
+    </g>
+  <rect x="20" y="414" width="380" height="298" rx="7" fill="#FFF8EC" stroke="#151515" stroke-width="2"/>
+  <g transform="translate(30 448)">
+      <text class="label" fill="#C9431C">SPACE</text>
+      <text x="0" y="30" class="small" fill="#635D52"><tspan x="0" dy="0">Three.js · WebGL · GLSL · Gaussian</tspan><tspan x="0" dy="20">Splatting</tspan></text>
+    </g><g transform="translate(30 540)">
+      <text class="label" fill="#244BC4">SYSTEMS</text>
+      <text x="0" y="30" class="small" fill="#635D52"><tspan x="0" dy="0">Next.js · TypeScript · Node.js · Supabase</tspan><tspan x="0" dy="20">· PostgreSQL</tspan></text>
+    </g><g transform="translate(30 632)">
+      <text class="label" fill="#151515">INTELLIGENCE</text>
+      <text x="0" y="30" class="small" fill="#635D52"><tspan x="0" dy="0">OpenAI · RAG · Embeddings · pgvector ·</tspan><tspan x="0" dy="20">Agent workflows</tspan></text>
+    </g>
+</svg>

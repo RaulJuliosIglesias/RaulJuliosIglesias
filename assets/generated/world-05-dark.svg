@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-labelledby="title desc">
+  <title id="title">05 — KOVA: Orchestration / Agent System</title>
+  <desc id="desc">An agent administration system that guides provider, backend and channel configuration through one visible control surface. Key decisions: Setup in three moves, Provider independence, Security as interface.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#2D3544" stroke-width="1" opacity=".42"/>
+    </pattern>
+    <pattern id="dither" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="2" height="2" fill="#8BA4FF" opacity=".2"/>
+      <rect x="4" y="4" width="2" height="2" fill="#FF835C" opacity=".16"/>
+    </pattern>
+    <style>
+      .serif { font-family: Georgia, 'Times New Roman', serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .label { font: 700 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 2px; text-transform: uppercase; }
+      .small { font: 600 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .45px; }
+      .body { font: 600 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .editorial { font: 700 32px Georgia, 'Times New Roman', serif; }
+      .display { font: 700 48px Georgia, 'Times New Roman', serif; letter-spacing: -1.5px; }
+
+    </style>
+  </defs>
+  <rect width="900" height="400" rx="12" fill="#0B0D12"/>
+  <rect x="10" y="10" width="880" height="380" rx="8" fill="url(#grid)" stroke="#F4ECDE" stroke-width="2"/>
+<path d="M10 58H890M493 58V390" stroke="#F4ECDE" stroke-width="2"/>
+  <text x="32" y="40" class="label" fill="#FF835C">WORLD / 05</text>
+  <text x="868" y="40" class="label" text-anchor="end" fill="#B8AF9F">ORCHESTRATION / AGENT SYSTEM</text>
+  <g transform="translate(34 88)">
+    <text class="serif" font-size="44" font-weight="700" fill="#F4ECDE">KOVA</text>
+
+    <text x="0" y="62" class="body" fill="#B8AF9F"><tspan x="0" dy="0">An agent administration system that guides</tspan><tspan x="0" dy="24">provider, backend and channel configuration</tspan><tspan x="0" dy="24">through one visible control surface.</tspan></text>
+    <path d="M0 184H410" stroke="#2D3544" stroke-width="2"/>
+    <text y="214" class="small" fill="#FF835C">01  SETUP IN THREE MOVES</text><text y="239" class="small" fill="#F4ECDE">02  PROVIDER INDEPENDENCE</text><text y="264" class="small" fill="#F4ECDE">03  SECURITY AS INTERFACE</text>
+  </g>
+  <g transform="translate(524 58)">
+    <circle cx="188" cy="136" r="118" fill="none" stroke="#2D3544" stroke-width="3" stroke-dasharray="8 10"/>
+    <circle cx="188" cy="136" r="79" fill="#121720" stroke="#8BA4FF" stroke-width="4"/>
+    <text x="188" y="131" class="editorial" text-anchor="middle" fill="#F4ECDE">KOVA</text>
+    <text x="188" y="153" class="label" text-anchor="middle" fill="#FF835C">AGENT OS</text>
+    <g transform="translate(40 52)"><rect x="-42" y="-18" width="84" height="36" rx="4" fill="#121720" stroke="#F4ECDE" stroke-width="2"/><text y="4" class="label" text-anchor="middle" fill="#B8AF9F">PROVIDER</text><path d="M42 0H85" stroke="#FF835C" stroke-width="3"/></g><g transform="translate(330 58)"><rect x="-42" y="-18" width="84" height="36" rx="4" fill="#121720" stroke="#F4ECDE" stroke-width="2"/><text y="4" class="label" text-anchor="middle" fill="#B8AF9F">BACKEND</text><path d="M-42 0H-85" stroke="#FF835C" stroke-width="3"/></g><g transform="translate(52 236)"><rect x="-42" y="-18" width="84" height="36" rx="4" fill="#121720" stroke="#F4ECDE" stroke-width="2"/><text y="4" class="label" text-anchor="middle" fill="#B8AF9F">CHANNELS</text><path d="M42 0H85" stroke="#FF835C" stroke-width="3"/></g><g transform="translate(326 228)"><rect x="-42" y="-18" width="84" height="36" rx="4" fill="#121720" stroke="#F4ECDE" stroke-width="2"/><text y="4" class="label" text-anchor="middle" fill="#B8AF9F">SECURITY</text><path d="M-42 0H-85" stroke="#FF835C" stroke-width="3"/></g>
+  </g>
+  <text x="868" y="382" class="label" text-anchor="end" fill="#B8AF9F">LIVE WORLD + PORTFOLIO RECORD</text>
+</svg>

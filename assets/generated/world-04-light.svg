@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-labelledby="title desc">
+  <title id="title">04 — Dreamly: Evidence / Human-first AI</title>
+  <desc id="desc">A travel assistant whose visible architecture connects clarification, retrieval, evidence checks and guardrails. Key decisions: Clarify before answering, Evidence in the route, Guardrails made visible.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#D2C4AD" stroke-width="1" opacity=".42"/>
+    </pattern>
+    <pattern id="dither" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="2" height="2" fill="#244BC4" opacity=".2"/>
+      <rect x="4" y="4" width="2" height="2" fill="#C9431C" opacity=".16"/>
+    </pattern>
+    <style>
+      .serif { font-family: Georgia, 'Times New Roman', serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .label { font: 700 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 2px; text-transform: uppercase; }
+      .small { font: 600 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .45px; }
+      .body { font: 600 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .editorial { font: 700 32px Georgia, 'Times New Roman', serif; }
+      .display { font: 700 48px Georgia, 'Times New Roman', serif; letter-spacing: -1.5px; }
+
+    </style>
+  </defs>
+  <rect width="900" height="400" rx="12" fill="#F2EADB"/>
+  <rect x="10" y="10" width="880" height="380" rx="8" fill="url(#grid)" stroke="#151515" stroke-width="2"/>
+<path d="M10 58H890M493 58V390" stroke="#151515" stroke-width="2"/>
+  <text x="32" y="40" class="label" fill="#C9431C">WORLD / 04</text>
+  <text x="868" y="40" class="label" text-anchor="end" fill="#635D52">EVIDENCE / HUMAN-FIRST AI</text>
+  <g transform="translate(34 88)">
+    <text class="serif" font-size="44" font-weight="700" fill="#151515">Dreamly</text>
+
+    <text x="0" y="62" class="body" fill="#635D52"><tspan x="0" dy="0">A travel assistant whose visible architecture</tspan><tspan x="0" dy="24">connects clarification, retrieval, evidence</tspan><tspan x="0" dy="24">checks and guardrails.</tspan></text>
+    <path d="M0 184H410" stroke="#D2C4AD" stroke-width="2"/>
+    <text y="214" class="small" fill="#C9431C">01  CLARIFY BEFORE ANSWERING</text><text y="239" class="small" fill="#151515">02  EVIDENCE IN THE ROUTE</text><text y="264" class="small" fill="#151515">03  GUARDRAILS MADE VISIBLE</text>
+  </g>
+  <g transform="translate(526 82)">
+    <path d="M38 122H326" stroke="#244BC4" stroke-width="5"/>
+    <g transform="translate(38 122)"><circle r="25" fill="#FFF8EC" stroke="#151515" stroke-width="4"/><text y="4" class="label" text-anchor="middle" fill="#151515">ASK</text></g><g transform="translate(134 122)"><circle r="25" fill="#FFF8EC" stroke="#151515" stroke-width="4"/><text y="4" class="label" text-anchor="middle" fill="#151515">FIND</text></g><g transform="translate(230 122)"><circle r="25" fill="#FFF8EC" stroke="#C9431C" stroke-width="4"/><text y="4" class="label" text-anchor="middle" fill="#C9431C">CHECK</text></g><g transform="translate(326 122)"><circle r="25" fill="#FFF8EC" stroke="#151515" stroke-width="4"/><text y="4" class="label" text-anchor="middle" fill="#151515">ANSWER</text></g>
+    <path d="M116 54h132l28 30-28 30H116L88 84Z" fill="url(#dither)" stroke="#D2C4AD" stroke-width="2"/>
+    <text x="182" y="89" class="small" text-anchor="middle" fill="#635D52">EVIDENCE ROUTE</text>
+    <path d="M38 164v34h288v-34" fill="none" stroke="#C9431C" stroke-width="3"/>
+    <text x="182" y="225" class="label" text-anchor="middle" fill="#635D52">LIMITS STAY VISIBLE</text>
+  </g>
+  <text x="868" y="382" class="label" text-anchor="end" fill="#635D52">CASE STUDY + LIVE WORLD</text>
+</svg>
