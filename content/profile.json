@@ -1,11 +1,11 @@
 {
   "identity": {
-    "name": "RaÃºl Iglesias Julios",
+    "name": "Raúl Iglesias Julios",
     "handle": "RaulJuliosIglesias",
     "role": "Creative Technologist",
     "class": "World Builder",
     "chapter": "Human-first digital worlds",
-    "location": "Spain Â· EU"
+    "location": "Spain · EU"
   },
   "currentQuest": {
     "label": "CURRENT QUEST",
@@ -25,7 +25,7 @@
     {
       "id": "01",
       "title": "Renault 5 Turbo 3E",
-      "kind": "Interactive 3D Â· Fan tribute",
+      "kind": "Interactive 3D · Fan tribute",
       "summary": "A cinematic WebGL homage built around exploration, annotated details and a twenty-step sequence.",
       "caseStudy": "https://github.com/RaulJuliosIglesias/renault-5-webgl-case-study",
       "demo": "https://showroomcar-alpha.vercel.app/"
@@ -33,7 +33,7 @@
     {
       "id": "02",
       "title": "Gaussian Splatting Web",
-      "kind": "Spatial experiment Â· Shaders",
+      "kind": "Spatial experiment · Shaders",
       "summary": "A browser playground for navigating splats, changing fields of view and experimenting with fog and animation.",
       "caseStudy": "https://github.com/RaulJuliosIglesias/gaussian-splatting-web-case-study",
       "demo": "https://web-gaussian-splatting-raul-iglesias.vercel.app/"
@@ -41,7 +41,7 @@
     {
       "id": "03",
       "title": "Dreamly",
-      "kind": "Human-first AI Â· RAG",
+      "kind": "Human-first AI · RAG",
       "summary": "A travel assistant whose visible architecture connects clarification, retrieval, evidence checks and guardrails.",
       "caseStudy": "https://github.com/RaulJuliosIglesias/dreamly-rag-case-study",
       "demo": "https://dreamly-delta.vercel.app/architecture"
@@ -49,7 +49,7 @@
     {
       "id": "04",
       "title": "MAVI",
-      "kind": "Accessible culture Â· Virtual museum",
+      "kind": "Accessible culture · Virtual museum",
       "summary": "Museo Accesible Virtual Interactivo: a digital museum experience designed around access to culture.",
       "caseStudy": "https://github.com/RaulJuliosIglesias/mavi-virtual-museum-case-study",
       "demo": "https://www.mavii.eu/landing_page.html"
@@ -74,6 +74,5 @@
     "linkedin": "https://www.linkedin.com/in/rauliglesiasjulios",
     "support": "https://buymeacoffee.com/rauliglesias"
   },
-  "signature": "Construyo tecnologÃ­a para ampliar la imaginaciÃ³n humana."
+  "signature": "Construyo tecnología para ampliar la imaginación humana."
 }
-
