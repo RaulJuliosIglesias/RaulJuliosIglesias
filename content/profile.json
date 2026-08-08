@@ -4,75 +4,175 @@
     "handle": "RaulJuliosIglesias",
     "role": "Creative Technologist",
     "class": "World Builder",
-    "chapter": "Human-first digital worlds",
-    "location": "Spain · EU"
+    "volume": "Field Guide · Vol. I",
+    "location": "Atlantic node · Spain / EU"
   },
-  "currentQuest": {
-    "label": "CURRENT QUEST",
-    "title": "Make useful systems feel alive",
-    "status": "EXPLORING",
-    "progress": 72
+  "chapter": {
+    "title": "Systems people can enter",
+    "thread": "Turn complex systems into places people can understand.",
+    "state": "In progress",
+    "footer": "Atlantic node · Open world"
   },
-  "avatar": {
-    "activeVariant": "orb-mask",
-    "path": "assets/avatar/avatar-orb-mask-512.png",
-    "alternatives": [
-      "assets/avatar/avatar-world-builder-512.png",
-      "assets/avatar/avatar-orbit-portrait-512.png"
-    ]
+  "heroPortrait": {
+    "path": "assets/avatar/avatar-orb-mask-512.png"
   },
-  "quests": [
+  "worlds": [
     {
       "id": "01",
+      "slug": "renault-5-turbo-3e",
       "title": "Renault 5 Turbo 3E",
-      "kind": "Interactive 3D · Fan tribute",
-      "summary": "A cinematic WebGL homage built around exploration, annotated details and a twenty-step sequence.",
-      "caseStudy": "https://github.com/RaulJuliosIglesias/renault-5-webgl-case-study",
-      "demo": "https://showroomcar-alpha.vercel.app/"
+      "discipline": "Motion / Interactive 3D",
+      "summary": "A cinematic WebGL tribute built around exploration, annotated vehicle details and a twenty-step sequence.",
+      "visitor": "Move through a real-time vehicle scene, shift viewpoints and uncover details through a guided spatial narrative.",
+      "decisions": ["Camera as narrator", "Progressive detail", "Real-time lighting"],
+      "motif": "motion",
+      "evidence": {
+        "kind": "case-study",
+        "caseStudy": "https://github.com/RaulJuliosIglesias/renault-5-webgl-case-study",
+        "live": "https://showroomcar-alpha.vercel.app/"
+      },
+      "notice": "Fan-made study. Not affiliated with, endorsed by or sponsored by Renault or Renault Group."
     },
     {
       "id": "02",
+      "slug": "gaussian-splatting-web",
       "title": "Gaussian Splatting Web",
-      "kind": "Spatial experiment · Shaders",
-      "summary": "A browser playground for navigating splats, changing fields of view and experimenting with fog and animation.",
-      "caseStudy": "https://github.com/RaulJuliosIglesias/gaussian-splatting-web-case-study",
-      "demo": "https://web-gaussian-splatting-raul-iglesias.vercel.app/"
+      "discipline": "Volume / Spatial Web",
+      "summary": "A browser laboratory for navigating captured volume through splats, custom shaders, fog and camera controls.",
+      "visitor": "Orbit a spatial capture, alter field of view and atmosphere, and study how a point field becomes a place.",
+      "decisions": ["Volume over mesh", "Atmosphere controls", "Camera literacy"],
+      "motif": "point-cloud",
+      "evidence": {
+        "kind": "case-study",
+        "caseStudy": "https://github.com/RaulJuliosIglesias/gaussian-splatting-web-case-study",
+        "live": "https://web-gaussian-splatting-raul-iglesias.vercel.app/"
+      }
     },
     {
       "id": "03",
-      "title": "Dreamly",
-      "kind": "Human-first AI · RAG",
-      "summary": "A travel assistant whose visible architecture connects clarification, retrieval, evidence checks and guardrails.",
-      "caseStudy": "https://github.com/RaulJuliosIglesias/dreamly-rag-case-study",
-      "demo": "https://dreamly-delta.vercel.app/architecture"
+      "slug": "mavi",
+      "title": "MAVI",
+      "discipline": "Access / Cultural Space",
+      "summary": "Museo Accesible Virtual Interactivo: a digital museum conceived as an open route into culture.",
+      "visitor": "Enter a virtual museum, follow a spatial story and encounter cultural material through an accessible interface.",
+      "decisions": ["Access from the start", "Open circulation", "Narrative wayfinding"],
+      "motif": "floorplan",
+      "evidence": {
+        "kind": "case-study",
+        "caseStudy": "https://github.com/RaulJuliosIglesias/mavi-virtual-museum-case-study",
+        "live": "https://www.mavii.eu/landing_page.html"
+      }
     },
     {
       "id": "04",
-      "title": "MAVI",
-      "kind": "Accessible culture · Virtual museum",
-      "summary": "Museo Accesible Virtual Interactivo: a digital museum experience designed around access to culture.",
-      "caseStudy": "https://github.com/RaulJuliosIglesias/mavi-virtual-museum-case-study",
-      "demo": "https://www.mavii.eu/landing_page.html"
+      "slug": "dreamly",
+      "title": "Dreamly",
+      "discipline": "Evidence / Human-first AI",
+      "summary": "A travel assistant whose visible architecture connects clarification, retrieval, evidence checks and guardrails.",
+      "visitor": "Trace how a request becomes a grounded response instead of treating intelligence as an unexplained black box.",
+      "decisions": ["Clarify before answering", "Evidence in the route", "Guardrails made visible"],
+      "motif": "evidence-route",
+      "evidence": {
+        "kind": "case-study",
+        "caseStudy": "https://github.com/RaulJuliosIglesias/dreamly-rag-case-study",
+        "live": "https://dreamly-delta.vercel.app/architecture"
+      }
+    },
+    {
+      "id": "05",
+      "slug": "kova",
+      "title": "KOVA",
+      "discipline": "Orchestration / Agent System",
+      "summary": "An agent administration system that guides provider, backend and channel configuration through one visible control surface.",
+      "visitor": "Configure a model provider, connect an agent backend and inspect channels, deployment paths and the security pipeline.",
+      "decisions": ["Setup in three moves", "Provider independence", "Security as interface"],
+      "motif": "agent-pipeline",
+      "evidence": {
+        "kind": "live-only",
+        "live": "https://kova-rosy.vercel.app/",
+        "portfolio": "https://rauliglesiasjulios.com/en/projects/kova"
+      }
+    },
+    {
+      "id": "06",
+      "slug": "solarscope",
+      "title": "SolarScope",
+      "alias": "Solar Panel App",
+      "discipline": "Energy / Engineering Tool",
+      "summary": "A browser-side photovoltaic configurator for exploring components, physical losses, generation and long-horizon scenarios.",
+      "visitor": "Shape a residential solar installation, compare assumptions and read the engineering consequences as a system.",
+      "decisions": ["No-login exploration", "Physical losses exposed", "Scenario comparison"],
+      "motif": "solar-system",
+      "evidence": {
+        "kind": "live-only",
+        "live": "https://solar-panel-app-ruddy.vercel.app/",
+        "portfolio": "https://rauliglesiasjulios.com/en/projects/solar-panel-app"
+      }
     }
   ],
-  "skillTree": [
+  "method": {
+    "stages": ["Observe", "Frame", "Prototype", "Build", "Tune", "Release"],
+    "disciplines": [
+      {
+        "name": "Space",
+        "items": ["Three.js", "WebGL", "GLSL", "Gaussian Splatting"]
+      },
+      {
+        "name": "Systems",
+        "items": ["Next.js", "TypeScript", "Node.js", "Supabase", "PostgreSQL"]
+      },
+      {
+        "name": "Intelligence",
+        "items": ["OpenAI", "RAG", "Embeddings", "pgvector", "Agent workflows"]
+      }
+    ],
+    "principles": [
+      "Keep the human in the loop.",
+      "Make complexity visible.",
+      "Let interaction earn its place."
+    ]
+  },
+  "fieldNotes": [
     {
-      "branch": "WORLD BUILDING",
-      "items": ["Three.js", "WebGL", "GSAP", "3D capture", "Spatial UX"]
+      "id": "01",
+      "title": "Spatial interfaces",
+      "text": "Navigation, camera and depth become useful when they help someone form a mental model.",
+      "motif": "orbit"
     },
     {
-      "branch": "SYSTEMS",
-      "items": ["Next.js", "TypeScript", "Node.js", "Supabase", "PostgreSQL"]
+      "id": "02",
+      "title": "Visible intelligence",
+      "text": "Sources, decisions and limits belong in the interface—not behind the curtain.",
+      "motif": "signal"
     },
     {
-      "branch": "INTELLIGENCE",
-      "items": ["OpenAI", "RAG", "Embeddings", "Vector search", "Agent workflows"]
+      "id": "03",
+      "title": "Accessible culture",
+      "text": "Digital space can widen access to culture instead of merely reproducing a physical room.",
+      "motif": "threshold"
+    }
+  ],
+  "inventory": [
+    {
+      "branch": "Worldmaking",
+      "items": ["Three.js", "WebGL", "GLSL", "GSAP", "Gaussian Splatting", "Blender"]
+    },
+    {
+      "branch": "Systems",
+      "items": ["Next.js", "React", "TypeScript", "Node.js", "Supabase", "PostgreSQL", "REST APIs"]
+    },
+    {
+      "branch": "Intelligence",
+      "items": ["OpenAI", "RAG", "Embeddings", "pgvector", "Agent workflows", "n8n", "Python"]
+    },
+    {
+      "branch": "Practice",
+      "items": ["Accessibility", "Performance", "Prototyping", "Observation", "Maintainability"]
     }
   ],
   "links": {
     "portfolio": "https://rauliglesiasjulios.com",
-    "linkedin": "https://www.linkedin.com/in/rauliglesiasjulios",
-    "support": "https://buymeacoffee.com/rauliglesias"
+    "linkedin": "https://www.linkedin.com/in/rauliglesiasjulios"
   },
   "signature": "Construyo tecnología para ampliar la imaginación humana."
 }

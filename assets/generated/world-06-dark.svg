@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-labelledby="title desc">
+  <title id="title">06 — SolarScope: Energy / Engineering Tool</title>
+  <desc id="desc">A browser-side photovoltaic configurator for exploring components, physical losses, generation and long-horizon scenarios. Key decisions: No-login exploration, Physical losses exposed, Scenario comparison.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#2D3544" stroke-width="1" opacity=".42"/>
+    </pattern>
+    <pattern id="dither" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="2" height="2" fill="#8BA4FF" opacity=".2"/>
+      <rect x="4" y="4" width="2" height="2" fill="#FF835C" opacity=".16"/>
+    </pattern>
+    <style>
+      .serif { font-family: Georgia, 'Times New Roman', serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .label { font: 700 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 2px; text-transform: uppercase; }
+      .small { font: 600 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .45px; }
+      .body { font: 600 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .editorial { font: 700 32px Georgia, 'Times New Roman', serif; }
+      .display { font: 700 48px Georgia, 'Times New Roman', serif; letter-spacing: -1.5px; }
+
+    </style>
+  </defs>
+  <rect width="900" height="400" rx="12" fill="#0B0D12"/>
+  <rect x="10" y="10" width="880" height="380" rx="8" fill="url(#grid)" stroke="#F4ECDE" stroke-width="2"/>
+<path d="M10 58H890M493 58V390" stroke="#F4ECDE" stroke-width="2"/>
+  <text x="32" y="40" class="label" fill="#FF835C">WORLD / 06</text>
+  <text x="868" y="40" class="label" text-anchor="end" fill="#B8AF9F">ENERGY / ENGINEERING TOOL</text>
+  <g transform="translate(34 88)">
+    <text class="serif" font-size="44" font-weight="700" fill="#F4ECDE">SolarScope</text>
+    <text y="30" class="small" fill="#8BA4FF">ALIAS / SOLAR PANEL APP</text>
+    <text x="0" y="76" class="body" fill="#B8AF9F"><tspan x="0" dy="0">A browser-side photovoltaic configurator for</tspan><tspan x="0" dy="24">exploring components, physical losses,</tspan><tspan x="0" dy="24">generation and long-horizon scenarios.</tspan></text>
+    <path d="M0 184H410" stroke="#2D3544" stroke-width="2"/>
+    <text y="214" class="small" fill="#FF835C">01  NO-LOGIN EXPLORATION</text><text y="239" class="small" fill="#F4ECDE">02  PHYSICAL LOSSES EXPOSED</text><text y="264" class="small" fill="#F4ECDE">03  SCENARIO COMPARISON</text>
+  </g>
+  <g transform="translate(530 54)">
+    <path d="M28 206C78 74 166 36 332 64" fill="none" stroke="#FF835C" stroke-width="4" stroke-dasharray="8 10"/>
+    <circle cx="298" cy="65" r="28" fill="#F4B247" opacity=".85"/>
+    <g transform="translate(82 132) skewX(-12)">
+      <rect width="205" height="116" fill="#8BA4FF" opacity=".22" stroke="#F4ECDE" stroke-width="4"/>
+      <path d="M41 0v116M82 0v116M123 0v116M164 0v116M0 38h205M0 77h205" stroke="#8BA4FF" stroke-width="2"/>
+    </g>
+    <path d="M42 272h310M62 272l22-41M330 272l-34-72" stroke="#F4ECDE" stroke-width="4"/>
+    <path d="M50 302c44-36 72 2 116-28s74 12 116-17 62-5 86-30" fill="none" stroke="#FF835C" stroke-width="3"/>
+    <text x="350" y="320" class="label" text-anchor="end" fill="#B8AF9F">OUTPUT / LOSSES / TIME</text>
+  </g>
+  <text x="868" y="382" class="label" text-anchor="end" fill="#B8AF9F">LIVE WORLD + PORTFOLIO RECORD</text>
+</svg>

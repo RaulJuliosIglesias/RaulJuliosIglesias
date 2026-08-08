@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-labelledby="title desc">
+  <title id="title">01 — Renault 5 Turbo 3E: Motion / Interactive 3D</title>
+  <desc id="desc">A cinematic WebGL tribute built around exploration, annotated vehicle details and a twenty-step sequence. Key decisions: Camera as narrator, Progressive detail, Real-time lighting.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#D2C4AD" stroke-width="1" opacity=".42"/>
+    </pattern>
+    <pattern id="dither" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="2" height="2" fill="#244BC4" opacity=".2"/>
+      <rect x="4" y="4" width="2" height="2" fill="#C9431C" opacity=".16"/>
+    </pattern>
+    <style>
+      .serif { font-family: Georgia, 'Times New Roman', serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .label { font: 700 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 2px; text-transform: uppercase; }
+      .small { font: 600 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .45px; }
+      .body { font: 600 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .editorial { font: 700 32px Georgia, 'Times New Roman', serif; }
+      .display { font: 700 48px Georgia, 'Times New Roman', serif; letter-spacing: -1.5px; }
+
+    </style>
+  </defs>
+  <rect width="900" height="400" rx="12" fill="#F2EADB"/>
+  <rect x="10" y="10" width="880" height="380" rx="8" fill="url(#grid)" stroke="#151515" stroke-width="2"/>
+<path d="M10 58H890M493 58V390" stroke="#151515" stroke-width="2"/>
+  <text x="32" y="40" class="label" fill="#C9431C">WORLD / 01</text>
+  <text x="868" y="40" class="label" text-anchor="end" fill="#635D52">MOTION / INTERACTIVE 3D</text>
+  <g transform="translate(34 88)">
+    <text class="serif" font-size="44" font-weight="700" fill="#151515">Renault 5 Turbo 3E</text>
+
+    <text x="0" y="62" class="body" fill="#635D52"><tspan x="0" dy="0">A cinematic WebGL tribute built around</tspan><tspan x="0" dy="24">exploration, annotated vehicle details and a</tspan><tspan x="0" dy="24">twenty-step sequence.</tspan></text>
+    <path d="M0 184H410" stroke="#D2C4AD" stroke-width="2"/>
+    <text y="214" class="small" fill="#C9431C">01  CAMERA AS NARRATOR</text><text y="239" class="small" fill="#151515">02  PROGRESSIVE DETAIL</text><text y="264" class="small" fill="#151515">03  REAL-TIME LIGHTING</text>
+  </g>
+  <g transform="translate(535 68)">
+    <path d="M8 188h258l74-82-33-42H111L45 116Z" fill="none" stroke="#151515" stroke-width="4"/>
+    <circle cx="100" cy="192" r="35" fill="#FFF8EC" stroke="#244BC4" stroke-width="5"/>
+    <circle cx="279" cy="192" r="35" fill="#FFF8EC" stroke="#244BC4" stroke-width="5"/>
+    <path d="M0 36h228M-18 66h150M20 96h86" stroke="#C9431C" stroke-width="4"/>
+    <path d="M146 72h112l42 48H110Z" fill="url(#dither)" stroke="#151515" stroke-width="2"/>
+    <text x="348" y="42" class="label" text-anchor="end" fill="#635D52">CAM / 03</text>
+  </g>
+  <text x="868" y="382" class="label" text-anchor="end" fill="#635D52">CASE STUDY + LIVE WORLD</text>
+</svg>
