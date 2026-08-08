@@ -1,6 +1,6 @@
 # Avatar studies
 
-Three 512 Ã— 512 pixel-art directions derived from the existing orange-orb identity:
+Three 512 × 512 pixel-art directions derived from the existing orange-orb identity:
 
 | World Builder | Orbit portrait | Orb mask |
 | --- | --- | --- |
@@ -8,4 +8,3 @@ Three 512 Ã— 512 pixel-art directions derived from the existing orange-orb id
 | More narrative | More human | Most minimal |
 
 The profile HUD currently previews **Orb mask**. Changing the global GitHub avatar should happen only after the preferred variant is chosen.
-
