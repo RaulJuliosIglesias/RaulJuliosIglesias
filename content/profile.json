@@ -4,7 +4,7 @@
     "handle": "RaulJuliosIglesias",
     "role": "Creative Technologist",
     "class": "World Builder",
-    "volume": "Field Guide · Vol. I",
+    "volume": "Atlantic Pixel Artbook · Vol. III",
     "location": "Atlantic node · Spain / EU"
   },
   "chapter": {
@@ -16,10 +16,17 @@
   "heroPortrait": {
     "path": "assets/avatar/avatar-orb-mask-512.png"
   },
+  "artwork": {
+    "manifest": "assets/artbook-v3/manifest.json",
+    "hero": "hero",
+    "atlas": "atlas",
+    "workshop": "workshop"
+  },
   "worlds": [
     {
       "id": "01",
       "slug": "renault-5-turbo-3e",
+      "artworkId": "renault-5-turbo-3e",
       "title": "Renault 5 Turbo 3E",
       "discipline": "Motion / Interactive 3D",
       "summary": "A cinematic WebGL tribute built around exploration, annotated vehicle details and a twenty-step sequence.",
@@ -36,6 +43,7 @@
     {
       "id": "02",
       "slug": "gaussian-splatting-web",
+      "artworkId": "gaussian-splatting-web",
       "title": "Gaussian Splatting Web",
       "discipline": "Volume / Spatial Web",
       "summary": "A browser laboratory for navigating captured volume through splats, custom shaders, fog and camera controls.",
@@ -51,6 +59,7 @@
     {
       "id": "03",
       "slug": "mavi",
+      "artworkId": "mavi",
       "title": "MAVI",
       "discipline": "Access / Cultural Space",
       "summary": "Museo Accesible Virtual Interactivo: a digital museum conceived as an open route into culture.",
@@ -66,6 +75,7 @@
     {
       "id": "04",
       "slug": "dreamly",
+      "artworkId": "dreamly",
       "title": "Dreamly",
       "discipline": "Evidence / Human-first AI",
       "summary": "A travel assistant whose visible architecture connects clarification, retrieval, evidence checks and guardrails.",
@@ -81,11 +91,12 @@
     {
       "id": "05",
       "slug": "kova",
+      "artworkId": "kova",
       "title": "KOVA",
       "discipline": "Orchestration / Agent System",
       "summary": "An agent administration system that guides provider, backend and channel configuration through one visible control surface.",
       "visitor": "Configure a model provider, connect an agent backend and inspect channels, deployment paths and the security pipeline.",
-      "decisions": ["Setup in three moves", "Provider independence", "Security as interface"],
+      "decisions": ["Setup in three moves", "Provider choice", "Security as interface"],
       "motif": "agent-pipeline",
       "evidence": {
         "kind": "live-only",
@@ -96,12 +107,13 @@
     {
       "id": "06",
       "slug": "solarscope",
+      "artworkId": "solarscope",
       "title": "SolarScope",
       "alias": "Solar Panel App",
       "discipline": "Energy / Engineering Tool",
       "summary": "A browser-side photovoltaic configurator for exploring components, physical losses, generation and long-horizon scenarios.",
       "visitor": "Shape a residential solar installation, compare assumptions and read the engineering consequences as a system.",
-      "decisions": ["No-login exploration", "Physical losses exposed", "Scenario comparison"],
+      "decisions": ["Exploration first", "Physical losses exposed", "Scenario comparison"],
       "motif": "solar-system",
       "evidence": {
         "kind": "live-only",

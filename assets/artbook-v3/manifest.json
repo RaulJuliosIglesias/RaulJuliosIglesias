@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "collection": "Atlantic Pixel Artbook",
+  "palette": [
+    "#08100F",
+    "#101816",
+    "#182321",
+    "#21302D",
+    "#2A3B37",
+    "#EEE2CC",
+    "#DFCFB2",
+    "#C8AF84",
+    "#A98E68",
+    "#80694F",
+    "#173A39",
+    "#285B5A",
+    "#36706C",
+    "#355F6B",
+    "#477A8B",
+    "#6090A0",
+    "#9D432D",
+    "#C95C38",
+    "#E0794E",
+    "#4F5945",
+    "#6E765A",
+    "#879074",
+    "#52473A",
+    "#8A7660"
+  ],
+  "budgets": {
+    "staticMaxBytes": 256000,
+    "animatedMaxBytes": 921600,
+    "effectiveMaxBytes": 5242880
+  },
+  "artworks": [
+    {
+      "id": "hero",
+      "project": "Profile",
+      "alt": "Player portrait inside an Atlantic field station overlooking an atlas table, volcanic coastline and lighthouse.",
+      "files": {
+        "static": {
+          "path": "assets/artbook-v3/hero-desktop.png",
+          "mime": "image/png",
+          "width": 900,
+          "height": 420,
+          "bytes": 37705,
+          "sha256": "dfc1ad217d739d202a00b17b653dd4056bded3db965b3290b9372d20afe36460"
+        },
+        "mobile": {
+          "path": "assets/artbook-v3/hero-mobile.png",
+          "mime": "image/png",
+          "width": 720,
+          "height": 1000,
+          "bytes": 67594,
+          "sha256": "da2b2cc76c9a60e4ff92d7d4fbef3aec42dd76015965b9eeab540e3b61bb338e"
+        }
+      }
+    },
+    {
+      "id": "atlas",
+      "project": "Six worlds",
+      "alt": "An Atlantic archipelago connecting six distinct worlds: a vehicle hangar, volumetric monument, museum portal, evidence observatory, agent control room and solar house.",
+      "files": {
+        "static": {
+          "path": "assets/artbook-v3/atlas-desktop.png",
+          "mime": "image/png",
+          "width": 900,
+          "height": 600,
+          "bytes": 51655,
+          "sha256": "d193e106069fc666ab6900b72c51567d1d0584884596bd5ba667a35a12ce70d6"
+        },
+        "mobile": {
+          "path": "assets/artbook-v3/atlas-mobile.png",
+          "mime": "image/png",
+          "width": 720,
+          "height": 1180,
+          "bytes": 82702,
+          "sha256": "fb6e5d56b9dc795303a2bbae0075697aa9b4e68feb4ea619dfc73f96d70adf56"
+        }
+      }
+    },
+    {
+      "id": "renault-5-turbo-3e",
+      "project": "Renault 5 Turbo 3E",
+      "alt": "A black-and-white widebody concept car in a violet-grey industrial studio beside a lone Atlantic player figure.",
+      "files": {
+        "static": {
+          "path": "assets/artbook-v3/worlds/renault-5-turbo-3e.png",
+          "mime": "image/png",
+          "width": 900,
+          "height": 480,
+          "bytes": 40964,
+          "sha256": "9f545fa791df9b10c63124dcee9c13f6250c74b37df23382c8f0569ca573a82c"
+        },
+        "animated": {
+          "path": "assets/artbook-v3/worlds/renault-5-turbo-3e.webp",
+          "mime": "image/webp",
+          "width": 900,
+          "height": 480,
+          "bytes": 46682,
+          "sha256": "b9a459bb4de8a614524483a9e8055d8ed0d5a5555e3d2d3eb7b55aaa883ca42f",
+          "frameCount": 16,
+          "durationMs": 3600,
+          "fps": 4.44
+        }
+      }
+    },
+    {
+      "id": "gaussian-splatting-web",
+      "project": "Gaussian Splatting Web",
+      "alt": "A tilted industrial monument dissolving into spatial particles above a wet Atlantic landscape.",
+      "files": {
+        "static": {
+          "path": "assets/artbook-v3/worlds/gaussian-splatting-web.png",
+          "mime": "image/png",
+          "width": 900,
+          "height": 480,
+          "bytes": 43672,
+          "sha256": "6b29c7ed8b147ed81a7f71f1e1180d868d4f523b3ee31bfa0186cbd21eaf0e4f"
+        },
+        "animated": {
+          "path": "assets/artbook-v3/worlds/gaussian-splatting-web.webp",
+          "mime": "image/webp",
+          "width": 900,
+          "height": 480,
+          "bytes": 48926,
+          "sha256": "ed179d6f4f8b9faf7b3bd4a3e7ba7ef270f1409285d31b4e903c3bd3a96c40c6",
+          "frameCount": 16,
+          "durationMs": 3600,
+          "fps": 4.44
+        }
+      }
+    },
+    {
+      "id": "mavi",
+      "project": "MAVI",
+      "alt": "An open stone museum threshold becomes a blue digital mesh beside an accessible coastal route.",
+      "files": {
+        "static": {
+          "path": "assets/artbook-v3/worlds/mavi.png",
+          "mime": "image/png",
+          "width": 900,
+          "height": 480,
+          "bytes": 40655,
+          "sha256": "75d40419c2d27c97c663e9002fe4ee4ed8bcf79acb48e888f642f984306d53eb"
+        },
+        "animated": {
+          "path": "assets/artbook-v3/worlds/mavi.webp",
+          "mime": "image/webp",
+          "width": 900,
+          "height": 480,
+          "bytes": 43626,
+          "sha256": "985030e75eaf1e2c01b9b9581c8fdd392bb2dc6900acc30f84d019328535bf6e",
+          "frameCount": 16,
+          "durationMs": 3600,
+          "fps": 4.44
+        }
+      }
+    },
+    {
+      "id": "dreamly",
+      "project": "Dreamly",
+      "alt": "A coastal travel observatory connected by a visible route from question to retrieved evidence and guarded response.",
+      "files": {
+        "static": {
+          "path": "assets/artbook-v3/worlds/dreamly.png",
+          "mime": "image/png",
+          "width": 900,
+          "height": 480,
+          "bytes": 34476,
+          "sha256": "bb3f730d4710f9fabb6a5eaf3375f24d9f512475c8955c526794acbe5ba2ee50"
+        },
+        "animated": {
+          "path": "assets/artbook-v3/worlds/dreamly.webp",
+          "mime": "image/webp",
+          "width": 900,
+          "height": 480,
+          "bytes": 36552,
+          "sha256": "c9c2e843773798de7469440b58562212df44399ad41c7139ef4b71bd1c6bf555",
+          "frameCount": 16,
+          "durationMs": 3600,
+          "fps": 4.44
+        }
+      }
+    },
+    {
+      "id": "kova",
+      "project": "KOVA",
+      "alt": "An Atlantic operations room links model providers, an agent core and communication channels through a visible control surface.",
+      "files": {
+        "static": {
+          "path": "assets/artbook-v3/worlds/kova.png",
+          "mime": "image/png",
+          "width": 900,
+          "height": 480,
+          "bytes": 41886,
+          "sha256": "0f00a17dfd6eef3e36702e38096d5d7f35d385ba699ae7ee1830d15b3fc03bc9"
+        },
+        "animated": {
+          "path": "assets/artbook-v3/worlds/kova.webp",
+          "mime": "image/webp",
+          "width": 900,
+          "height": 480,
+          "bytes": 45482,
+          "sha256": "cba42a8d2f767d10360536302258ceccabe4cc9922181d9cb8b3610b9e9756d4",
+          "frameCount": 16,
+          "durationMs": 3600,
+          "fps": 4.44
+        }
+      }
+    },
+    {
+      "id": "solarscope",
+      "project": "SolarScope",
+      "alt": "An Atlantic house with a photovoltaic roof, a marked sun path and a legible energy station.",
+      "files": {
+        "static": {
+          "path": "assets/artbook-v3/worlds/solarscope.png",
+          "mime": "image/png",
+          "width": 900,
+          "height": 480,
+          "bytes": 43815,
+          "sha256": "657566217ed92c7f8b6a80bc57dff8baaf97c5cc6319d2a069345dabd1960580"
+        },
+        "animated": {
+          "path": "assets/artbook-v3/worlds/solarscope.webp",
+          "mime": "image/webp",
+          "width": 900,
+          "height": 480,
+          "bytes": 46540,
+          "sha256": "55eaa4f643947c5d160eaad434209d9f2a61035bae25deb716e9e91aebcaa97c",
+          "frameCount": 16,
+          "durationMs": 3600,
+          "fps": 4.44
+        }
+      }
+    },
+    {
+      "id": "workshop",
+      "project": "Method",
+      "alt": "A long Atlantic workshop moving from observation and framing through prototypes, construction, tuning and release.",
+      "files": {
+        "static": {
+          "path": "assets/artbook-v3/workshop.png",
+          "mime": "image/png",
+          "width": 900,
+          "height": 360,
+          "bytes": 26244,
+          "sha256": "f4ef3e850f0f3d9f98f152b6d576f67be901f0cf1df16f81b8bbd69af17ae6fc"
+        }
+      }
+    },
+    {
+      "id": "cover-renault",
+      "project": "Renault 5 Turbo 3E",
+      "alt": "Matte pixel-art scene of a black-and-white Renault 5 Turbo 3E tribute in a coastal night studio, with an explorer standing beside it",
+      "files": {
+        "static": {
+          "path": "assets/artbook-v3/case-studies/renault-5-turbo-3e.png",
+          "mime": "image/png",
+          "width": 1280,
+          "height": 640,
+          "bytes": 72979,
+          "sha256": "84f6d7f24f1a255f51262bcc3bd51bc3b83a0d748376adf2550d816bb117a556"
+        }
+      }
+    },
+    {
+      "id": "cover-gaussian",
+      "project": "Gaussian Splatting Web",
+      "alt": "Matte pixel-art coastal scene with an explorer facing a monumental tilted frame that dissolves into Gaussian-like particles",
+      "files": {
+        "static": {
+          "path": "assets/artbook-v3/case-studies/gaussian-splatting-web.png",
+          "mime": "image/png",
+          "width": 1280,
+          "height": 640,
+          "bytes": 81242,
+          "sha256": "e837782eab3e3b8ee187add8aacc8f2c2a37acd3a5985e1f2127f019418f00fc"
+        }
+      }
+    },
+    {
+      "id": "cover-mavi",
+      "project": "MAVI",
+      "alt": "Matte pixel-art museum approach where a stone portal becomes a blue digital mesh beside an open coastal path",
+      "files": {
+        "static": {
+          "path": "assets/artbook-v3/case-studies/mavi.png",
+          "mime": "image/png",
+          "width": 1280,
+          "height": 640,
+          "bytes": 75457,
+          "sha256": "5fe77f7788e24b44124547f8ac60896bea8d47b210f444bb66ab3068bcae1cee"
+        }
+      }
+    },
+    {
+      "id": "cover-dreamly",
+      "project": "Dreamly",
+      "alt": "Matte pixel-art observatory where a visible route crosses Atlantic islands through evidence nodes to a response terminal",
+      "files": {
+        "static": {
+          "path": "assets/artbook-v3/case-studies/dreamly.png",
+          "mime": "image/png",
+          "width": 1280,
+          "height": 640,
+          "bytes": 63567,
+          "sha256": "5e536ef7d68d6cb0a82c8bff921eaaa6740cbcaf47b0d3f537b5987ebb718400"
+        }
+      }
+    }
+  ]
+}
